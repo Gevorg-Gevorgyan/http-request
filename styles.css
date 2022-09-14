@@ -1,0 +1,66 @@
+.titleRow {
+    color: red;
+}
+
+.popupClass {
+    display: none;
+    position: fixed;
+    font-size: 25px;
+    width: 310px;
+    height: 380px;
+    border: 1px solid #000;
+    background-color: grey;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.popupClass > input {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.popupClass > button {
+    margin-top: 15px;
+    font-size: 22px;
+    padding: 5px;
+    background-color: gainsboro;
+}
+.createButtonClass {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: grey;
+}
+
+.show {
+    display: block;
+}
+
+.tableClass {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+tr {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tableClass > tbody > tr > td > button {
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-inline: 3px;
+    background-color: #000;
+    color: white;
+}
